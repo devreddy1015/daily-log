@@ -20,7 +20,7 @@ jobs:
       - name: Commit and push
         run: |
           git config user.name "devreddy1015"
-          git config user.email "amanprtp36@gmail.com"
+          git config user.email "151898247+devreddy1015@users.noreply.github.com"
           git add log.md
           git commit -m "Daily log: $(date -u +'%Y-%m-%d')"
           git push
